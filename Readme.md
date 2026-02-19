@@ -1,6 +1,13 @@
-# PipeCD GitOps Lab Manual
+# pipecd-fasttrack 
 
-This is how to set up a GitOps pipeline inside a Codespace using Kind. I had to fix gRPC and secret issues to get the agent to actually talk to the server.
+learning gitops usually costs money (cloud credits, gcp/aws). i wanted to change that.
+
+this is a simple, zero-cost guide to getting your first project deployed on PipeCD using nothing but GitHub Codespaces and Kind. no cloud bill, no local setup drama.
+
+### why did i build this?
+when i first tried pipecd, i got stuck on some tricky connection and port-mapping issues that almost made me quit. i figured if i was struggling, other students were too. 
+
+this repo is my attempt to lower the barrier for the next wave of pipecd contributors. i've documented the fixes for the common "connection traps" so you can get straight to the fun part: shipping code.
 
 ## 1. Cluster Setup
 
